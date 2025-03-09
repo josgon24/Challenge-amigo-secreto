@@ -2,8 +2,7 @@
 let amigos = [];
 
 /**
- * Agrega un nuevo amigo al array de amigos.
- * Valida que el nombre no esté vacío antes de agregarlo y actualiza la lista visual.
+  Agrega un nuevo amigo al array de amigos.
  */
 function agregarAmigo() {
   let nombreAmigo = document.getElementById("amigo").value;
@@ -18,7 +17,7 @@ function agregarAmigo() {
 }
 
 /**
- * Actualiza la visualización de la lista de amigos en el DOM, creando elementos <li> para cada amigo.
+  Actualiza la visualización de la lista de amigos.
  */
 function mostrarListaAmigo() {
   let listaAmigos = document.querySelector("#listaAmigos");
@@ -34,8 +33,7 @@ function mostrarListaAmigo() {
 }
 
 /**
- * Sortea y muestra un amigo de la lista de amigos de manera aleatoria.
- * Verifica que la lista no esté vacía antes de realizar el sorteo.
+ Sortea y muestra un amigo de la lista de amigos de manera aleatoria.
  */
 function sortearAmigo() {
   let cantidadAmigos = amigos.length;
